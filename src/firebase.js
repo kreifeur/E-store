@@ -7,7 +7,8 @@ import { getAuth } from "firebase/auth";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY ,
+  /* apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY , */
+  apiKey : 'AIzaSyDah8fWI5WPB_oC8eG732GKrk3H0x7Q5XY',
   authDomain: "cosmitics-ea4ae.firebaseapp.com",
   projectId: "cosmitics-ea4ae",
   storageBucket: "cosmitics-ea4ae.appspot.com",
