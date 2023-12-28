@@ -8,14 +8,14 @@ import { getFirestore } from "firebase/firestore";
 // Your web app's Firebase configuration
 const firebaseConfig = {
   apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY ,
-  authDomain: "cosmitics-23e9e.firebaseapp.com",
-  projectId: "cosmitics-23e9e",
-  storageBucket: "cosmitics-23e9e.appspot.com",
-  messagingSenderId: "667919115202",
-  appId: "1:667919115202:web:8c79a3f550c93ebf22ec5b"
+  authDomain: "cosmitics-ea4ae.firebaseapp.com",
+  projectId: "cosmitics-ea4ae",
+  storageBucket: "cosmitics-ea4ae.appspot.com",
+  messagingSenderId: "322095325317",
+  appId: "1:322095325317:web:88164f7d04261fde5709ec"
 };
 
 // Initialize Firebase
 export const firebase_app = initializeApp(firebaseConfig);
-/* export const firebase_auth = getAuth(firebase_app); */
+export const firebase_auth = getAuth(firebase_app);
 export const db=getFirestore(firebase_app)
