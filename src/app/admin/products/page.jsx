@@ -14,7 +14,7 @@ import {db} from '@/firebase'
 export default function Home() {
   const [products, setProducts]= useState([])
   const [newproduct,setNewproduct]= useState({
-    name:null
+    name:''
   })
 
   useEffect(() => {
@@ -31,7 +31,7 @@ export default function Home() {
       try {
         const docRef = await addDoc(collection(db, "products"), newproduct);
       } catch (e) {}
-      setNewproduct({ name: "", price: "" });
+      setNewproduct({ name: ""});
     }
     else {
       alert('please enter cord' )
